@@ -1,9 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
-import { IoHomeSharp } from "react-icons/io5";
 import { useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";

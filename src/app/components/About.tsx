@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 const About = () => {
   return (
     <>
@@ -16,8 +15,7 @@ const About = () => {
         className="bg-black flex flex-col items-center pb-12 md:flex-row md:justify-center gap-3 md:gap-6 py-2 md:py-10"
         id="About"
       >
-        {/* <Image src={"/zubair.jpg"} alt='MyPic' height={190} width={200} className='rounded-full md:rounded-2xl md:w-[400px] md:h-[350px]' data-aos="flip-down" data-aos-duration="1000"/> */}
-        {/* <h1 className='text-white text-4xl font-semibold my-3 md:text-6xl md:-mx-8' data-aos="flip-down" data-aos-duration="1000">About Me:</h1> */}
+       
         <div
           className="bg-black h-[400px] w-[350px] md:rounded-3xl rounded-2xl md:w-[600px] md:h-[550px] flex justify-center items-center md:my-1 border-2 border-white"
           data-aos="flip-down"
