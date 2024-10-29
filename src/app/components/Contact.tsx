@@ -3,20 +3,19 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form: any = useRef();
+  const form:any = useRef();
 
-  const sendEmail = (e: unknown | any) => {
+  const sendEmail = (e:any) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_5yvrd85", "template_l6f7xku", form.current, {
+    emailjs.sendForm("service_5yvrd85", "template_l6f7xku", form.current, {
         publicKey: "ZU-RIn0MFOzKcjhE8",
       })
       .then(
         () => {
           alert("SUCCESS!");
         },
-        (error: any) => {
+        (error) => {
           alert(`FAILED...${error.text}`);
         }
       );
