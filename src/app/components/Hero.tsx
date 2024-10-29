@@ -1,7 +1,6 @@
 "use client";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import React from "react";
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import { useEffect } from "react";
@@ -51,13 +50,17 @@ const Hero = () => {
             />
           </h1>
           <p className="text-[#faedcd] text-base mx-5 pt-6 md:text-2xl md:text-justify md:leading-10 md:border-white rounded-xl text-justify">
-          I’m a passionate front-end developer with expertise in <b>Next.js, Tailwind CSS, and TypeScript.</b>  My focus is on creating fast, responsive, and visually appealing web applications that provide seamless user experiences. My portfolio showcases projects where I’ve applied modern, scalable front-end technologies to build dynamic interfaces.
-
+            I’m a passionate front-end developer with expertise in{" "}
+            <b>Next.js, Tailwind CSS, and TypeScript.</b> My focus is on
+            creating fast, responsive, and visually appealing web applications
+            that provide seamless user experiences. My portfolio showcases
+            projects where I’ve applied modern, scalable front-end technologies
+            to build dynamic interfaces.
           </p>
-          <Link href='#Email'>
-          <button className="bg-red-600 h-9 px-2 font-semibold text-base text-white rounded mt-10 md:h-12 md:px-2 md:text-xl md:mt-12 hover:scale-110 transition-all">
-            Let's Connect
-          </button>
+          <Link href="#Email">
+            <button className="bg-red-600 h-9 px-2 font-semibold text-base text-white rounded mt-10 md:h-12 md:px-2 md:text-xl md:mt-12 hover:scale-110 transition-all">
+              Let's Connect
+            </button>
           </Link>
         </div>
       </div>

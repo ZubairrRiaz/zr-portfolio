@@ -130,7 +130,9 @@ const Projects = () => {
               {Project.name}
             </h2>
             <br />
-            <p className="mx-3 text-base md:text-lg text-black">{Project.text}</p>
+            <p className="mx-3 text-base md:text-lg text-black">
+              {Project.text}
+            </p>
             <br />
             <div className="text-center md:mt-8 hover:scale-110 transition-all">
               <Link

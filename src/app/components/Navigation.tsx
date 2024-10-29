@@ -9,7 +9,6 @@ import { RiInstagramFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { GrTextAlignRight } from "react-icons/gr";
 
-
 const Navigation = () => {
   const [Navopen, setNavopen] = useState(false);
 
@@ -29,8 +28,12 @@ const Navigation = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         />
-        
-        <div className="hidden md:flex" data-aos="fade-down" data-aos-duration="1000">
+
+        <div
+          className="hidden md:flex"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <ul className="hidden md:flex text-white md:gap-8">
             <Link href="/">
               <li className="border-2 border-white p-2 px-3 rounded-xl md:px-4 hover:bg-[#fdc500] hover:border-[#fdc500] hover:scale-110 transition-all">
@@ -63,14 +66,36 @@ const Navigation = () => {
           onClick={handleNav}
           className="md:hidden cursor-pointer pl-24 mr-2 text-white flex flex-col items-center font-bold"
         >
-          <GrTextAlignRight size={30} data-aos="fade-left" data-aos-duration="1000"/>
-          <span data-aos="fade-left" data-aos-duration="1000">Menu</span>
+          <GrTextAlignRight
+            size={30}
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          />
+          <span data-aos="fade-left" data-aos-duration="1000">
+            Menu
+          </span>
         </div>
-        <div className="text-white md:flex gap-5 mr-4 hidden" data-aos="fade-left" data-aos-duration="1000">
-            <Link href={'https://www.linkedin.com/in/zubair-riaz-3452352ba/'}> <FaLinkedin size={30}/> </Link>
-            <Link href={'https://github.com/ZubairrRiaz'}> <BsGithub size={30}/> </Link>
-            <Link href={'https://www.instagram.com/zubairrajpoot907/'}> <RiInstagramFill size={30}/> </Link>
-            <Link href={'#Email'}> <MdEmail size={30}/> </Link>
+        <div
+          className="text-white md:flex gap-5 mr-4 hidden"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <Link href={"https://www.linkedin.com/in/zubair-riaz-3452352ba/"}>
+            {" "}
+            <FaLinkedin size={30} />{" "}
+          </Link>
+          <Link href={"https://github.com/ZubairrRiaz"}>
+            {" "}
+            <BsGithub size={30} />{" "}
+          </Link>
+          <Link href={"https://www.instagram.com/zubairrajpoot907/"}>
+            {" "}
+            <RiInstagramFill size={30} />{" "}
+          </Link>
+          <Link href={"#Email"}>
+            {" "}
+            <MdEmail size={30} />{" "}
+          </Link>
         </div>
       </div>
       <div
@@ -130,13 +155,24 @@ const Navigation = () => {
             </Link>
           </ul>
           <div className="text-white justify-center pt-8 flex gap-5">
-            <Link href={'https://www.linkedin.com/in/zubair-riaz-3452352ba/'}> <FaLinkedin size={30}/> </Link>
-            <Link href={'https://github.com/ZubairrRiaz'}> <BsGithub size={30}/> </Link>
-            <Link href={'https://www.instagram.com/zubairrajpoot907/'}> <RiInstagramFill size={30}/> </Link>
-            <Link href={'#Email'}> <MdEmail size={30}/> </Link>
+            <Link href={"https://www.linkedin.com/in/zubair-riaz-3452352ba/"}>
+              {" "}
+              <FaLinkedin size={30} />{" "}
+            </Link>
+            <Link href={"https://github.com/ZubairrRiaz"}>
+              {" "}
+              <BsGithub size={30} />{" "}
+            </Link>
+            <Link href={"https://www.instagram.com/zubairrajpoot907/"}>
+              {" "}
+              <RiInstagramFill size={30} />{" "}
+            </Link>
+            <Link href={"#Email"}>
+              {" "}
+              <MdEmail size={30} />{" "}
+            </Link>
+          </div>
         </div>
-        </div>
-
       </div>
     </nav>
   );
