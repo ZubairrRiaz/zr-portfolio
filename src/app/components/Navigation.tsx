@@ -70,7 +70,7 @@ const Navigation = () => {
             <Link href={'https://www.linkedin.com/in/zubair-riaz-3452352ba/'}> <FaLinkedin size={30}/> </Link>
             <Link href={'https://github.com/ZubairrRiaz'}> <BsGithub size={30}/> </Link>
             <Link href={'https://www.instagram.com/zubairrajpoot907/'}> <RiInstagramFill size={30}/> </Link>
-            <Link href={''}> <MdEmail size={30}/> </Link>
+            <Link href={'#Email'}> <MdEmail size={30}/> </Link>
         </div>
       </div>
       <div
@@ -133,7 +133,7 @@ const Navigation = () => {
             <Link href={'https://www.linkedin.com/in/zubair-riaz-3452352ba/'}> <FaLinkedin size={30}/> </Link>
             <Link href={'https://github.com/ZubairrRiaz'}> <BsGithub size={30}/> </Link>
             <Link href={'https://www.instagram.com/zubairrajpoot907/'}> <RiInstagramFill size={30}/> </Link>
-            <Link href={''}> <MdEmail size={30}/> </Link>
+            <Link href={'#Email'}> <MdEmail size={30}/> </Link>
         </div>
         </div>
 
