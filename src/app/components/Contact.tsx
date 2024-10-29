@@ -1,25 +1,6 @@
-"use client";
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+
 
 const Contact = () => {
-  const form:any = useRef();
-
-  const sendEmail = (e:any) => {
-    e.preventDefault();
-
-    emailjs.sendForm("service_5yvrd85", "template_l6f7xku", form.current, {
-        publicKey: "ZU-RIn0MFOzKcjhE8",
-      })
-      .then(
-        () => {
-          alert("SUCCESS!");
-        },
-        (error) => {
-          alert(`FAILED...${error.text}`);
-        }
-      );
-  };
 
   return (
     <div
@@ -63,11 +44,7 @@ const Contact = () => {
           data-aos-duration="1000"
           className="border text-black p-6 md:pl-14 rounded-2xl grid md:h-[500px] md:w-[45%] h-[430px] w-[80%] backdrop-blur-[40px] bg-white/20"
         >
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-            className="space-y-2 md:space-y-4"
-          >
+          <form className="space-y-2 md:space-y-4">
             <div>
               <label htmlFor="name" className="text-base md:text-xl">
                 Name
