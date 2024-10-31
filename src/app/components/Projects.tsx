@@ -85,13 +85,13 @@ const htmlCssTsProjects = [
   },
   {
     name: "Netflix",
-    link: "https://github.com/ZubairrRiaz/zr2164-cli_number_guessing/blob/main/cliNumber.ts",
+    link: "https://superlative-hotteok-532719.netlify.app/",
     id: 2,
     text: "Netflix Clone.",
   },
   {
     name: "Resume Builder",
-    link: "https://github.com/ZubairrRiaz/zr2164-45_question-_exercise",
+    link: "https://zubi-hackathon-resume.netlify.app/",
     id: 3,
     text: "A Dynamic Resume.",
   },
